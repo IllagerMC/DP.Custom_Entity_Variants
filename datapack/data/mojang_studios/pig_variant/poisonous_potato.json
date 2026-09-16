@@ -1,0 +1,13 @@
+{
+  "asset_id": "mojang_studios:entity/pig/poisonous_potato_pig",
+  "baby_asset_id": "minecraft:entity/pig/pig_temperate_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:deep_dark"
+      },
+      "priority": 1
+    }
+  ]
+}
