@@ -1,0 +1,19 @@
+{
+  "asset_id": "mojang_studios:entity/cow/moon_cow",
+  "baby_asset_id": "minecraft:entity/cow/cow_temperate_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": [
+          "minecraft:end_barrens",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands",
+          "minecraft:small_end_islands",
+          "minecraft:the_end"
+        ]
+      },
+      "priority": 2
+    }
+  ]
+}
