@@ -1,0 +1,13 @@
+{
+  "asset_id": "mojang_studios:entity/chicken/poisonous_potato_chicken",
+  "baby_asset_id": "minecraft:entity/chicken/chicken_temperate_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "minecraft:deep_dark"
+      },
+      "priority": 1
+    }
+  ]
+}
